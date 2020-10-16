@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.container {
+    border: 30px solid rgba(62, 60, 63,.20);
+    margin:10px;
+
+   }
+ .container h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    grid-area: h1;
+    /* padding-left: 20px; */
+}
+
+
+#users {
+
+    border-radius:5px;
+    background-color:rgba(205, 185, 224, .20);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+     display: grid;
+     grid-template-columns: repeat( 4 , 1fr);
+     grid-template-rows: repeat(auto, flex);
+     grid-gap: 10px;
+    padding: 10px;
+   
+   
+}
+
