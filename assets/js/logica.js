@@ -26,8 +26,9 @@ function renderUsers(usersList) {
     //console.log(user);
     let textNote = document.createTextNode(user)
     let parrafo = document.createElement("p")
+    console.log(parrafo);
     //parrafo.appendChild(textNote)
-    container.appendChild(parrafo)
+    //container.appendChild(parrafo)
     const template =
 
       ` <div id="users">
@@ -35,6 +36,7 @@ function renderUsers(usersList) {
         <p>${user.title} <br> ${user.completed} </p>
       </div>`
     container.innerHTML += template
+    console.log(template);
 
 
 
